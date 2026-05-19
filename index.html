@@ -623,26 +623,6 @@ function openGift() {
 }
 
 // ──────────────────────────────────────────────
-// BALLOONS
-// ──────────────────────────────────────────────
-const balloonLayer = document.getElementById('balloonLayer');
-const balloonEmojis = ['🎈','🎀','🎊','🎉','💚'];
-
-function startBalloons() {
-  setInterval(() => {
-    const b = document.createElement('div');
-    b.className = 'balloon';
-    b.textContent = balloonEmojis[Math.floor(Math.random() * balloonEmojis.length)];
-    b.style.left = Math.random() * 100 + 'vw';
-    b.style.animationDuration = (Math.random() * 4 + 5) + 's';
-    b.style.animationDelay = '0s';
-    b.style.fontSize = (Math.random() * 2 + 2) + 'rem';
-    balloonLayer.appendChild(b);
-    setTimeout(() => b.remove(), 10000);
-  }, 600);
-}
-
-// ──────────────────────────────────────────────
 // CONFETTI
 // ──────────────────────────────────────────────
 const cCanvas = document.getElementById('confetti-canvas');
