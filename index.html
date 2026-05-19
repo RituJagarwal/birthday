@@ -69,7 +69,7 @@
   }
   .bg-dark    { background: radial-gradient(ellipse at 50% 50%, #1a0a2e 0%, #0a0a0f 100%); }
   .bg-soft    { background: radial-gradient(ellipse at 30% 60%, #2d1b69 0%, #0a0a1a 100%); }
-  .bg-party   { background: linear-gradient(135deg, #ff6b9d, #c44dff, #4da6ff, #43e97b) !important;
+  .bg-party   { background: linear-gradient(135deg, rgb(31, 25, 61), rgb(71, 27, 94), #172e46, rgb(22, 78, 41)) !important;
                 background-size: 400% 400% !important;
                 animation: gradientShift 3s ease infinite !important; }
 
@@ -210,7 +210,7 @@
     font-family: 'Playfair Display', serif;
     font-size: clamp(2.5rem, 8vw, 6rem);
     font-weight: 700;
-    background: linear-gradient(135deg, #7e6f1e, #702f44, #5b2675, #1a7477);
+    background: linear-gradient(135deg, #fff2ab, #f8b3c9, #dba1f8, #c8fdff);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -221,7 +221,7 @@
   }
   @keyframes textGlow {
     0%, 100% { filter: drop-shadow(0 0 10px rgba(255,215,0,0.5)); }
-    50%       { filter: drop-shadow(0 0 30px rgba(255,107,157,0.9)); }
+    50%       { filter: drop-shadow(0 0 30px rgba(252, 111, 149, 0.9)); }
   }
 
   /* ── STEP 7 – CAKE ── */
@@ -365,13 +365,11 @@
 
 <!-- ── STEP 3 ── -->
 <div class="step" id="step3">
-  <p style="font-size:3.5rem;margin-bottom:1rem;animation:bounce 0.5s ease infinite alternate">😂</p>
-  <h1 class="main-text">But promise me...</h1>
+  <h1 class="main-text">🎀Before we begin...</h1>
   <p class="sub-text" style="font-size:clamp(1rem,3vw,1.5rem);color:rgba(255,255,255,0.85)">
-    You won't laugh <em>too</em> much 😂<br>
-    <span style="font-size:0.9em;opacity:0.6">(okay maybe a little is fine)</span>
+    I just want you to know — you deserve all the good things today and every day 💛<br>
   </p>
-  <button class="glow-btn" onclick="nextStep(4)">I promise! Show me 🙏</button>
+  <button class="glow-btn" onclick="nextStep(4)">Aww, show me! →</button>
 </div>
 
 <!-- ── STEP 4 ── -->
@@ -439,7 +437,7 @@
 
 <audio id="bgMusic" loop>
   <!-- We use a reliable CDN source for birthday instrumental -->
-  <source src="WhatsApp Audio 2026-05-06 at 10.17.04.mpeg" type="audio/mpeg">
+  <source src="audio/WhatsApp Audio 2026-05-06 at 10.17.04.mpeg" type="audio/mpeg">
 </audio>
 
 <script>
@@ -593,7 +591,7 @@ function animParticles() {
 // EMOJI RAIN (step 3)
 // ──────────────────────────────────────────────
 const emojiRainEl = document.getElementById('emojiRain');
-const funEmojis = ['😂','🤣','😆','💀','🙈','😹','🤦','😅','😜','🤪'];
+const funEmojis = ['🌸','❤️','🥳','🎀','🙈','🎉','🎈','💛','😜','🤪','🎂','🎊','🎁','💚'];
 let emojiInterval = null;
 
 function startEmojiRain() {
@@ -628,7 +626,7 @@ function openGift() {
 // BALLOONS
 // ──────────────────────────────────────────────
 const balloonLayer = document.getElementById('balloonLayer');
-const balloonEmojis = ['🎈','🎀','🎊','🎉','🎏'];
+const balloonEmojis = ['🎈','🎀','🎊','🎉','💚'];
 
 function startBalloons() {
   setInterval(() => {
@@ -711,17 +709,28 @@ You are one of those rare people who makes life better just by being in it. Your
 
 I know life doesn't always feel like a celebration. Some days are heavy. Some days you wonder if things will work out. But look at you — still here, still going, still smiling through it all. That takes more courage than most people realize. 💪
 
+Kuch lines yaad aa rhi hai......
+
+If you want something really bad and you cannot sleep because of it, you're so distracted and it's just irritating the shit out of you, that means the future you already has it.
+
 And on the days when you doubt yourself...
 
 Just remember: the people around you chose to keep you in their lives — not out of obligation, but because you genuinely matter to them. You matter to me too. 💙
 
 So today, I hope you eat too much cake 🎂, laugh until your stomach hurts 😂, and feel every bit of love that's floating around you.
 
-Never stop being you. ✨
+Never stop being you. ✨ 
 
-This year — I have a feeling — is going to be YOUR year. 🌟
+Happy Birthday, Cutu 🎀
 
-Happy Birthday, Cutu. 🎀
+And....
+
+Dance the night away
+Live your life and stay young on the floor
+Dance the night away
+Grab somebody, drink a little more 🌟
+
+Again Happy Birthday Shivam 💙 
 
 With so much love (and maybe a little teasing),
 Someone who thinks you're kind of a big deal ❤️`;
